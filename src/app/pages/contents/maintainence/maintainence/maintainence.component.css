@@ -1,0 +1,13 @@
+
+.hr-orange{
+    display: inline-block;
+    background-color: coral;
+    margin: 20px auto;
+    height: 10px;
+    width: 100%;
+}
+
+.custom-card{
+    background-color: white;
+    border-top: 10px solid #FF9500;
+}

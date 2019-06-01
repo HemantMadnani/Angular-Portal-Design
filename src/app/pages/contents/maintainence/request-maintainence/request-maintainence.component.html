@@ -1,0 +1,51 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="col-md-12 custom-card-orange"><br />
+        <h3> Create a New Maintainence Request</h3>
+        <p></p>
+        <div class="form-group">
+          <b class="col-form-label">What needs attention? *</b><br />(Max 950 characters)<br />
+          <textarea cols=8 rows=4 class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <b class="col-form-label">Is this issue urgent? *</b><br />
+          <input type="radio" value="Yes" name="urgent">Yes<br />
+          <input type="radio" value="No" name="urgent">No
+        </div>
+        <div class="form-group">
+          <b class="col-form-label">Is this issue actively causing property damage or a threat to personal safety?
+            *</b><br />
+          <input type="radio" value="Yes" name="urgent">Yes<br />
+          <input type="radio" value="No" name="urgent">No
+        </div>
+        <div class="form-group">
+            <button class="btn btn-basic">Add Photos</button> &nbsp; No photos added
+            <br/><br/>
+            <button class="btn btn-primary">Submit Request</button>&nbsp; <button (click)="cancelMaintainanceRequest()" class="btn btn-basic">Cancel</button>
+    
+          </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="col-md-12 custom-card-blue">
+        <br />
+        <div class="col-md-12">
+          <h3> Date Created</h3>
+        </div>
+        <br />
+       <p> 05/23/2019</p>
+      </div>
+<div class="clearfix"><br/></div>
+      <div class="col-md-12 custom-card-blue">
+          <br />
+          <div class="col-md-12">
+            <h3> My Contact Info</h3>
+          </div>
+          <br />
+          Satheesh Abhiram<br/>1716 Deer Valley Road<br/>Hoover, AL 35226<br/>(205) 639-3708
+        </div>
+
+    </div>
+  </div>
+</div>

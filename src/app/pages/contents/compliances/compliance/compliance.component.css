@@ -1,0 +1,16 @@
+
+.custom-card{
+    background-color: white;
+    border-top: 10px solid #745CD2;
+}
+.horizontal-row{
+    border-top: 1px solid #eee;
+    padding-inline-start: 40px;
+    list-style-position: inside;
+    margin-bottom: 5px;
+}
+
+.custom-ul{
+    padding-inline-start: 0px;
+    margin: 0px;
+}
